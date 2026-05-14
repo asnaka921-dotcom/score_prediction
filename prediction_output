@@ -1,0 +1,51 @@
+ ==================================================
+DATASET PREVIEW
+==================================================
+   Hours  Scores
+0    2.5      21
+1    5.1      47
+2    3.2      27
+3    8.5      75
+4    3.5      30
+
+Dataset Shape: (25, 2)
+Missing Values:
+Hours     0
+Scores    0
+dtype: int64
+
+==================================================
+MODEL EVALUATION RESULTS
+==================================================
+
+📌 Linear Regression
+   MSE  : 18.9432
+   RMSE : 4.3524
+   MAE  : 3.9208
+   R²   : 0.9678
+
+📌 Decision Tree
+   MSE  : 31.7000
+   RMSE : 5.6303
+   MAE  : 5.4000
+   R²   : 0.9461
+
+📌 Random Forest
+   MSE  : 13.0452
+   RMSE : 3.6118
+   MAE  : 2.7780
+   R²   : 0.9778
+
+==================================================
+🏆 Best Model: Random Forest (R² = 0.9778)
+==================================================
+
+==================================================
+PREDICT YOUR SCORE
+==================================================
+Enter study hours to predict score: 11
+
+Predictions for 11.0 hours of study:
+  Linear Regression     : 109.33
+  Decision Tree         : 88.00
+  Random Forest         : 88.81
